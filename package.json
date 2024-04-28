@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@salesforce/cli": "^2.37.4",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsforce": "^1.11.1",
+    "node-salesforce": "^0.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server",
+    "server": "nodemon server"
+  }
+}
